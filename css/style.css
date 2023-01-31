@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* index style */
+/* hover nav item */
+.nav-item :hover {
+  color: white;
+  background-color: indianred;
+  border-radius: 18%;
+  transform: scale(0.8);
+  text-transform: uppercase;
+}
+.button-down a:hover {
+  color: white;
+  background-color: indianred;
+  border-radius: 18%;
+  transform: scale(0.8);
+  text-transform: uppercase;
+}
+.dropdown-menu :hover {
+  color: white;
+  background-color: indianred;
+  text-transform: uppercase;
+}
+/*end hover nav item */
+/* ------------------------------- */
+/*start img carsoul */
+.first-img-carousel {
+  background-image: url(/img/women-001.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.seacond-img-carousel {
+  background-image: url(/img/men-001.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.third-img-carousel {
+  background-image: url(/img/kid-001.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.fourth-img-carousel {
+  background-image: url(/img/accessories-001.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+/*end img carsoul */
+
+/* ده الجدار الخفى قدام الصور */
+.carousel-inner::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 60%);
+  z-index: 1;
+}
+/* ده الجدار الخفى قدام الصور */
+/* ---------------------------------------- */
+
+.container video {
+  width: 100%;
+  height: 100vh;
+}
+
+/* الصور اللى فوق الصوره */
+.lead-deals {
+  width: 80%;
+  height: 38vh;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  top: 38px;
+  left: 1em;
+  font-size: 55px;
+  cursor: pointer;
+  transition: 2s all;
+}
+.lead-deals:hover {
+  background-color: red;
+  color: aliceblue;
+  width: 80%;
+  height: 38vh;
+  opacity: 0.7;
+}
+/* الصور اللى فوق الصوره */
+/* ---------------------------------- */
+.footer-bottom {
+  border-top: 2px solid;
+}
+
+@media screen and (max-width: 992px) {
+  .some-information {
+    text-align: center;
+  }
+  .footer-content {
+    text-align: center;
+  }
+}
+/* ----------------------------------------------- -----------------*/
+/* ---------------------------------------------------------------- */
+/* page about us */
+.introduction-img {
+  background-image: url(/img/about-us-page-heading.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.introduction-img::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 10%);
+}
+/* end page about us */
+/* ------------------------------------------------ */
+/* ------------------------------------------------- */
+/* start mens fashion */
+.introduction-men {
+  background-image: url(/img/products-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.introduction-men::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 50%);
+}
+.cards:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  outline-color: black;
+  background-color: black;
+  color: aliceblue;
+  z-index: 2;
+}
+
+/*end mens fashion */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* start contact us */
+.contact-us {
+  background-image: url(/img/about-us-page-heading.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.contact-us::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 10%);
+}
+/* end contact us */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* start page sign in */
+.log-in {
+  width: 40%;
+  height: 86vh;
+  background-color: #f3f3f3;
+  border: 10px solid #f3f3f3;
+  border-radius: 30px;
+  outline-style: outset;
+  outline-color: #f3f3f3;
+}
+@media screen and (max-width: 992px) {
+  .log-in {
+    width: 90%;
+    height: 90vh;
+  }
+}
+/* end page sign in */
