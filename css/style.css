@@ -29,25 +29,25 @@
 /*start img carsoul */
 .first-img-carousel {
   background-image: url(/img/women-001.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 100vh;
 }
 .seacond-img-carousel {
   background-image: url(/img/men-001.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 100vh;
 }
 .third-img-carousel {
   background-image: url(/img/kid-001.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 100vh;
 }
 .fourth-img-carousel {
   background-image: url(/img/accessories-001.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 100vh;
 }
@@ -111,7 +111,7 @@
 /* page about us */
 .introduction-img {
   background-image: url(/img/about-us-page-heading.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 70vh;
   position: relative;
@@ -131,7 +131,7 @@
 /* start mens fashion */
 .introduction-men {
   background-image: url(/img/products-background.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 70vh;
   position: relative;
@@ -160,7 +160,7 @@
 /* start contact us */
 .contact-us {
   background-image: url(/img/about-us-page-heading.jpg);
-  background-size: cover;
+  background-size: 100% 100vh;
   width: 100%;
   height: 70vh;
   position: relative;
